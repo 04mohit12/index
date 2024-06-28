@@ -1,0 +1,46 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for the entire page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Styles for each section */
+  .section {
+    background-color: #fff;
+    border: 1px solid #000;
+    width: calc(33.33% - 10px); /* Three sections per row, with gap */
+    padding: 15px;
+    position: relative; /* For absolute positioning of title */
+  }
+  
+  .section-title {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ffcc00; /* Unique color for title background */
+    padding: 5px;
+    font-size: 1.25em; /* 25% larger than paragraph text */
+  }
+  
+  .section p {
+    margin-top: 30px; /* Space between title and paragraph */
+  }
+  

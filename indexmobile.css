@@ -1,0 +1,20 @@
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .container {
+      flex-direction: column; /* Stack sections vertically */
+    }
+  
+    .section {
+      width: 100%; /* Full width for each section */
+      margin-bottom: 20px; /* Space between sections */
+    }
+  
+    .section-title {
+      position: relative; /* Reset to default */
+      margin-top: -20px; /* Offset for the title to overlap top border */
+      background-color: #66ccff; /* Different color for title background */
+      padding: 10px;
+      font-size: 1.25em; /* 25% larger than paragraph text */
+    }
+  }
+  
